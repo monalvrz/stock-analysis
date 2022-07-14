@@ -29,7 +29,7 @@ Taking a closer look to the results we can conclude the following:
 
 
 
-### Refactored script and execution times
+### Refactored script
 
 In addition to generating code to get the information we needed to analyze which company might be a better option for Steve's parents to invest in, modifications were made to the code to make it run faster. This was intended to make the code work with a larger database. 
 
@@ -173,6 +173,13 @@ Sub AllStocksAnalysisRefactored()
 
 End Sub
 ```
+
+### Execution times
+
+<img width="422" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/107893200/179117304-9b660c5e-23a7-415e-896a-77ef21445c45.png"><img width="421" alt="2017" src="https://user-images.githubusercontent.com/107893200/179117323-1591fd48-6148-4b04-b28e-1d70a0b528b4.png">
+
+<img width="425" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/107893200/179117342-271312e1-57bf-47d0-9bad-53ae1275f94a.png"> <img width="424" alt="2018" src="https://user-images.githubusercontent.com/107893200/179117366-62172332-e202-462c-9a31-72100fd39251.png">
+
 
 
 ## Summary 
