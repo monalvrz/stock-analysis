@@ -13,6 +13,8 @@ Initially, for the analysis of the data base we focused on obtaining the **total
 
 ## Results 
 
+### Stock performance between 2017 and 2018
+
 The stock analysis outputs were presented in Excel as shown bellow: 
 
 <img width="336" alt="Stocks_2017" src="https://user-images.githubusercontent.com/107893200/179088117-c878c59d-6bfa-4359-8a95-94d757447156.png">
@@ -29,6 +31,19 @@ Taking a closer look to the results we can conclude the following:
 
 
 
+### Refactored script and execution times
+
+In addition to generating code to get the information we needed to analyze which company might be a better option for Steve's parents to invest in, modifications were made to the code to make it run faster. This was intended to make the code work with a larger database. 
+
+The first part of the code remained the same. In it, the following steps were performed:
+- Declare startTime an endTime as variables 
+- Generate a message box to insert the year in which you would like to perform the analysis. 
+- Start the timer to evaluate the amount of time the operation will take. 
+- Format the output sheet on All Stocks Analysis worksheet
+- Create a header row
+- Initialize array of all tickers
+- Activate the data worksheet
+- Get the number of rows to loop over
 
 ```
 Sub AllStocksAnalysisRefactored()
