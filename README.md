@@ -1,4 +1,4 @@
-#Green Stock Analysis
+# Green Stock Analysis
 
 ## Project Overview
 
