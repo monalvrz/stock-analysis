@@ -8,8 +8,8 @@ Initially, for the analysis of the data base we focused on obtaining the **total
 
 ## Resources
 
-* Data source: green_stocks.xlsm
-* Employed tools: Visual Basic for Applications (VBA) in Excel
+* **Data source**: green_stocks.xlsm
+* **Employed tools**: Visual Basic for Applications (VBA) in Excel
 
 ## Results 
 
