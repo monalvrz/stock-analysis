@@ -17,9 +17,7 @@ Initially, for the analysis of the data base we focused on obtaining the **total
 
 The stock analysis outputs were presented in Excel as shown bellow: 
 
-<img width="336" alt="Stocks_2017" src="https://user-images.githubusercontent.com/107893200/179088117-c878c59d-6bfa-4359-8a95-94d757447156.png">
-
-<img width="335" alt="Stocks_2018" src="https://user-images.githubusercontent.com/107893200/179088136-9259466f-2d25-4919-a777-84488a93e18e.png">
+<img width="336" alt="Stocks_2017" src="https://user-images.githubusercontent.com/107893200/179088117-c878c59d-6bfa-4359-8a95-94d757447156.png"> / <img width="335" alt="Stocks_2018" src="https://user-images.githubusercontent.com/107893200/179088136-9259466f-2d25-4919-a777-84488a93e18e.png">
 
 Taking a closer look to the results we can conclude the following: 
 - During 2017 the companies with better return percentage were DQ, ENPH, FSLR and SEDG.
