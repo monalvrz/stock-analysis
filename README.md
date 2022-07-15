@@ -33,7 +33,7 @@ Taking a closer look to the results we can conclude the following:
 
 In addition to generating code to get the information we needed to analyze which company might be a better option for Steve's parents to invest in, modifications were made to the code to make it run faster. This was intended to make the code work with a larger database. 
 
-The first part of the code remained the same. The following steps were performed:
+The **first part** of the code remained the same. The following steps were performed:
 - Declare startTime an endTime as variables 
 - Generate a message box to insert the year in which you would like to perform the analysis. 
 - Start the timer to evaluate the amount of time the operation will take. 
@@ -84,7 +84,7 @@ Sub AllStocksAnalysisRefactored()
     'Get the number of rows to loop over
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
   ```
-The second part of the code is the one that contains the modifications to make it run faster:
+The **second part** of the code is the one that contains the modifications to make it run faster:
 - First, an Index containing each ticker, i.e. each company, was generated.
 - Three output arrays were created: tickerVolumes, tickerStartingPrinces and tickerEndingPrices, which allowed to organize and store the data of each of the companies in a faster and cleaner way. 
 - We create a for loop to initialize the tickerVolumes to zero. 
@@ -146,6 +146,7 @@ The second part of the code is the one that contains the modifications to make i
     Next i
 
 ```
+The **last section** arranges the information obtained in the Excel cells, formats the text and headings, and ends at the timer we activated at the beginning. 
 
 ```
    'Formatting
@@ -182,10 +183,19 @@ End Sub
 
 ### Execution times
 
+The main change made to the code was the speed at which the analysis is performed. We can see this change by comparing the message box that pops up in each one of the versions. 
+
+#### 2017
+
+In the left image, the refactored code, we can see that the speed at which the code runs is 0.1054688. While in the image on the right, the initial code, the speed at which the code runs is 0.7421875.
+
 <img width="422" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/107893200/179117304-9b660c5e-23a7-415e-896a-77ef21445c45.png"><img width="421" alt="2017" src="https://user-images.githubusercontent.com/107893200/179117323-1591fd48-6148-4b04-b28e-1d70a0b528b4.png">
 
-<img width="425" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/107893200/179117342-271312e1-57bf-47d0-9bad-53ae1275f94a.png"> <img width="424" alt="2018" src="https://user-images.githubusercontent.com/107893200/179117366-62172332-e202-462c-9a31-72100fd39251.png">
+#### 2018
 
+In the left image, the refactored code, we can see that the speed at which the code runs is 0.109375. While in the image on the right, the initial code, the speed at which the code runs is 0.765625.
+
+<img width="425" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/107893200/179117342-271312e1-57bf-47d0-9bad-53ae1275f94a.png"> <img width="424" alt="2018" src="https://user-images.githubusercontent.com/107893200/179117366-62172332-e202-462c-9a31-72100fd39251.png">
 
 
 ## Summary 
