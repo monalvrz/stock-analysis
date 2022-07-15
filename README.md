@@ -25,10 +25,6 @@ Taking a closer look to the results we can conclude the following:
 - 
 
 
-
-
-
-
 ### Refactored script
 
 In addition to generating code to get the information we needed to analyze which company might be a better option for Steve's parents to invest in, modifications were made to the code to make it run faster. This was intended to make the code work with a larger database. 
@@ -207,3 +203,7 @@ One of the advantages of refactoring a code is the possibility of executing the 
 In order to have better results when refactoring a code it is important to understand, prior to writing the code, the precise steps you want to carry out. This can help to identify if it is possible to join or resolve several steps in a single line or if it is possible to generate variables that can be reused.
 
 * How do these pros and cons apply to refactoring the original VBA script?
+
+One of the disadvantages of refactoring the VBA script was the possibility that the code would no longer run or that instead of creating simpler and more streamlined code it would become more confusing. Also when running the code we might not notice the improvements as evidently since our database is still apparently small.
+
+Undoubtedly one of the advantages of having refactored the code was that we obtained a more concise and even cleaner code when reading it and trying to understand each line. 
