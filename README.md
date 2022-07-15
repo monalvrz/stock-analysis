@@ -22,8 +22,8 @@ The stock analysis outputs were presented in Excel as shown bellow:
 Taking a closer look to the results we can conclude the following: 
 - During 2017 the companies with better return percentage were DQ, ENPH, FSLR and SEDG.
 - During 2018 the only two companies that had a positive return percentage were ENPH and RUN. 
-- 
-
+- Taking into consideration the overview of both years it is possible to conclude that only RUN was the company that had a positive increase in that period of time. However, we could not be sure that such results would be repeated next year, since as is the case with the other companies they had results in the red in 2018 even though the previous year they had had good results. 
+- Taking into consideration the amount of decline that each company presented from 2017 to 2018 it is possible to consider that AY, ENPH, HASI and TERP are the tickers that had less alteration. This indicates that it can be a safe and moderate investment, even considering that it could have negative results next year, they did not have such abrupt declines. 
 
 ### Refactored script
 
