@@ -33,7 +33,7 @@ Taking a closer look to the results we can conclude the following:
 
 In addition to generating code to get the information we needed to analyze which company might be a better option for Steve's parents to invest in, modifications were made to the code to make it run faster. This was intended to make the code work with a larger database. 
 
-The first part of the code remained the same. In it, the following steps were performed:
+The first part of the code remained the same. The following steps were performed:
 - Declare startTime an endTime as variables 
 - Generate a message box to insert the year in which you would like to perform the analysis. 
 - Start the timer to evaluate the amount of time the operation will take. 
@@ -84,9 +84,15 @@ Sub AllStocksAnalysisRefactored()
     'Get the number of rows to loop over
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
   ```
-
-
-
+The second part of the code is the one that contains the modifications to make it run faster:
+- First, an Index containing each ticker, i.e. each company, was generated.
+- Three output arrays were created: tickerVolumes, tickerStartingPrinces and tickerEndingPrices, which allowed to organize and store the data of each of the companies in a faster and cleaner way. 
+- We create a for loop to initialize the tickerVolumes to zero. 
+- We loop over all the rows in the spreadsheet.
+- Each time the loop started the volume for the current ticker would be incremented.
+- Then we create an if statement that will evaluate if the current row is the first row with the selected tickerIndex. 
+- In the same way we create an if statement that will evaluate if the current row is the las row with the selected ticker, and if the if is not fulfilled the next step will be to...
+- Increase the tickerIndex
 
 ```
 1a) Create a ticker Index
